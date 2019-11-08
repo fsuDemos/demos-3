@@ -8,14 +8,14 @@ sections:
   label: Content
 - type: directory
   path: src/assets/content/blog
-  label: Blog Posts
+  label: Posts
   create: documents
   match: "**/*"
   templates:
   - blog-post
 - type: document
   path: src/assets/content/data/authors.json
-  label: Authors List
+  label: People
 - type: document
   path: src/assets/content/data/info.json
   label: Info Page
